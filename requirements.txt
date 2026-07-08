@@ -1,0 +1,22 @@
+# Core orchestration
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+
+# LLM providers (install what you use; all optional at runtime)
+langchain-ollama>=0.2.0
+langchain-anthropic>=0.2.0
+langchain-openai>=0.2.0
+
+# Tools
+tavily-python>=0.5.0
+ddgs>=6.0.0            # DuckDuckGo search (successor to duckduckgo-search)
+requests>=2.31.0      # GitHub + Wikipedia REST
+
+# UI + config
+gradio>=4.44.0
+python-dotenv>=1.0.0
+
+# Reporting (later phases)
+markdown>=3.6
+python-docx>=1.1.0

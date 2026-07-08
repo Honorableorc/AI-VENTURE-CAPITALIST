@@ -1,0 +1,27 @@
+# Secrets / config
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments (never commit — .venv-gpu is 500MB+)
+.venv/
+.venv-gpu/
+venv/
+env/
+
+# Local model files (keep multi-GB weights out of git)
+*.gguf
+
+# Runtime data
+memory/*.sqlite
+reports/*
+!reports/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
