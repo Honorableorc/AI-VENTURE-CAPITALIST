@@ -118,3 +118,7 @@ memory/    cross-session SQLite recall
 ## 📜 License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+<sub>Built with LangGraph · runs 100% locally on your own GPU.</sub>
